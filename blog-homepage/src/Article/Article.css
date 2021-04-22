@@ -1,0 +1,81 @@
+.articleTitle {
+  font-weight: bold;
+}
+
+.articleBody {
+  padding: 10px 15px;
+}
+
+.articleAuthor {
+  width: 30px;
+  border-radius: 20px;
+}
+
+.articleDescription {
+  color: gray;
+  font-size: .9em;
+  padding: 3px 0 8px 0;
+}
+
+.articleAudio, .memberPreview {
+  font-size: .8em;
+  color: #888;
+}
+
+.missedArticleContainer {
+  border: 1px solid #ddd;
+  width: 315px;
+  float: left;
+  margin-right: 30px;
+  text-align: left;
+  min-height: 230px;
+}
+.missedArticleImage {
+  width: 315px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.missedArticlesContainer {
+  clear: both;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.an { display: flex;}
+.ay {flex-direction: row;}
+.br {align-items: center;}
+.articleAndAuthorData {
+  padding-left: 8px;
+  font-size: .8em;
+}
+.articleAndAuthorSubData {
+  color: gray;
+}
+
+.articleAndAuthorData svg {
+  padding-left: 70px;
+}
+
+.forYouArticlesContainer {
+  text-align: left;
+  padding-left: 20px;
+}
+.forYouArticleContainer {
+  text-align: left;
+  float: left;
+  width: 500px;
+  border: 1px solid #ddd;
+  margin: 10px 10px 10px 0;
+}
+.forYouArticleBody {
+  padding: 0 20px 10px 0
+}
+.forYouArticleImage  {
+  width: 200px;
+  height: 180px;
+  margin-right: 10px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
